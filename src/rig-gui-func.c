@@ -102,7 +102,7 @@ rig_gui_func_create ()
 	dialog = gtk_dialog_new_with_buttons (title,
 				 GTK_WINDOW (grigapp),
 				 GTK_DIALOG_DESTROY_WITH_PARENT,
-				 NULL);
+				 NULL, NULL);
 	g_free (title);
 	gtk_window_set_default_size (GTK_WINDOW (dialog), -1, 50);
 

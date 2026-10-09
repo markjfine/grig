@@ -1551,7 +1551,7 @@ ritval_to_bytearr (gchar *array, shortfreq_t freq)
 	else
 		array[0] = ' ';
 
-	freq = abs (freq);
+	freq = labs (freq);
 
 	for (i = 3; i >= 0; i--) {
 

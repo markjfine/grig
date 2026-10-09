@@ -227,9 +227,9 @@ rig_gui_message_window_show ()
 //	if (!visible) {
 //		g_print ("Show window\n");
 
-		gtk_widget_show_all (window);
+	gtk_widget_show_all (window);
 
-		visible = TRUE;
+	visible = TRUE;
 //	}
 
 }
